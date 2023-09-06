@@ -128,8 +128,7 @@ footer{
 /**Pagina Equipo**/
 .imgHistoria{
     margin-top: 3rem;
-    padding: 20px;
-    width: 600px;
+    width: 500px;
 }
 .textoHistoriauno{
     margin-top: 3rem;
@@ -245,3 +244,96 @@ footer{
 
 
 /**Termina página Inicio**/
+
+/** Comienza página Portfolio**/
+
+.contenedorPortfolio {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "img1 img1 img1 txt1"
+        "txt2 img2 img2 img2"
+        "img3 img3 img3 txt3"
+        "txt4 img4 img4 img4";
+    }
+    .img1 { 
+        grid-area: img1; 
+    }
+
+    .txt1 { 
+        grid-area: txt1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: right;
+        padding: 20px;
+    }
+
+    .txt2 { 
+        grid-area: txt2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .img2 { 
+        grid-area: img2; 
+    }
+
+    .img3 { 
+        grid-area: img3; 
+    }
+
+    .txt3 { 
+        grid-area: txt3;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: right;
+        padding: 20px;
+    }
+
+    .txt4 { 
+        grid-area: txt4;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .img4 { 
+        grid-area: img4; 
+    }
+
+    .pf{
+        width: 80%;
+        border-radius: 1rem;
+        margin: 20px;
+    }
+
+    @media screen and (max-width: 480px){
+        .contenedorPortfolio {
+            margin: 10px;            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-auto-columns: 1fr;            grid-auto-flow: row;
+            grid-template-areas:
+                "txt1"
+                "img1"
+                "txt2"
+                "img2"
+                "txt3"
+                "img3"
+                "txt4"
+                "img4";
+        }
+    }
+    
