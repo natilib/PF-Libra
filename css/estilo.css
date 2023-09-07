@@ -436,6 +436,27 @@ footer{
         100% {
         opacity: 1;
         }
-      }
-      
+    }
+
+@media screen and (max-width: 480px){
+    .contenedorServicios {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.6fr 1fr 0.7fr 0.7fr 0.6fr 1.4fr;
+        grid-auto-columns: 1fr;
+        gap: 5px 5px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "tituloServicios tituloServicios tituloServicios tituloServicios"
+            "servicios1 servicios1 servicios1 servicios1"
+            "servicios2 servicios2 servicios2 servicios2"
+            "servicios3 servicios3 servicios3 servicios3"
+            "servicios4 servicios4 servicios4 servicios4"
+            "img2servicios img2servicios img2servicios img2servicios"
+            "img1servicios img1servicios img1servicios img1servicios"
+            "img3servicios img3servicios img3servicios img3servicios"
+            "tituloClientes tituloClientes tituloClientes tituloClientes"
+            "carreteClientes carreteClientes carreteClientes carreteClientes";
+        }
+}
 
