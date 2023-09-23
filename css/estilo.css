@@ -101,4 +101,23 @@ footer .iconosFooter .iconoWhats {
   height: 24px;
 }
 
+body main .container .row .textoHistoriauno {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+body main .container .row .imgHistoria {
+  margin-top: 3rem;
+  width: 500px;
+}
+body main .container .row .textoHistoriados {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+}
+
 /*# sourceMappingURL=estilo.css.map */
