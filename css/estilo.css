@@ -194,5 +194,88 @@ body main .container .row .textoHistoriados {
     grid-template-areas: "titulo" "dato1" "dato2" "dato3" "subtitulo" "opinion";
   }
 }
+@media screen and (max-width: 480px) {
+  .contenedorServicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1fr 0.7fr 0.7fr 0.6fr 1.4fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas: "tituloServicios tituloServicios tituloServicios tituloServicios" "servicios1 servicios1 servicios1 servicios1" "servicios2 servicios2 servicios2 servicios2" "servicios3 servicios3 servicios3 servicios3" "servicios4 servicios4 servicios4 servicios4" "img2servicios img2servicios img2servicios img2servicios" "img1servicios img1servicios img1servicios img1servicios" "img3servicios img3servicios img3servicios img3servicios" "tituloClientes tituloClientes tituloClientes tituloClientes" "carreteClientes carreteClientes carreteClientes carreteClientes";
+  }
+}
+body main .contenedorServicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1fr 0.7fr 0.7fr 0.6fr 1.4fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas: "tituloServicios tituloServicios tituloServicios tituloServicios" "servicios1 servicios2 servicios3 servicios4" "img1servicios img1servicios img2servicios img2servicios" "img1servicios img1servicios img3servicios img3servicios" "tituloClientes tituloClientes tituloClientes tituloClientes" "carreteClientes carreteClientes carreteClientes carreteClientes";
+}
+body main .contenedorServicios .tituloServicios {
+  grid-area: tituloServicios;
+}
+body main .contenedorServicios .img2servicios {
+  grid-area: img2servicios;
+}
+body main .contenedorServicios .img3servicios {
+  grid-area: img3servicios;
+}
+body main .contenedorServicios .img1servicios {
+  grid-area: img1servicios;
+  border-radius: 1rem;
+}
+body main .contenedorServicios .servicios1 {
+  grid-area: servicios1;
+}
+body main .contenedorServicios .servicios2 {
+  grid-area: servicios2;
+}
+body main .contenedorServicios .servicios3 {
+  grid-area: servicios3;
+}
+body main .contenedorServicios .servicios4 {
+  grid-area: servicios4;
+}
+body main .contenedorServicios .tituloClientes {
+  grid-area: tituloClientes;
+}
+body main .contenedorServicios .carreteClientes {
+  grid-area: carreteClientes;
+}
+body main .contenedorServicios .carreteClientes .containerLogos {
+  overflow: hidden;
+}
+body main .contenedorServicios .carreteClientes .containerLogos .slider {
+  animation: slidein 45s linear infinite;
+  white-space: nowrap;
+}
+body main .contenedorServicios .carreteClientes .containerLogos .slider .logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+}
+body main .contenedorServicios .carreteClientes .containerLogos .slider .logos .fab {
+  width: 50px;
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */
