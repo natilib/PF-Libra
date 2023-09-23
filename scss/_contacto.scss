@@ -1,0 +1,31 @@
+body{
+    main{
+        .container{
+            .row{
+                div{
+                    div{
+                        .formulario{
+                            width:400px;
+                            margin:0 auto;
+                            padding: 20px;
+                            font-size: 0.8rem;
+                            .colorBoton{
+                                color:#eeeeee;
+                                background-color:#2c4913;
+                                border: #2c4913;
+                                &:hover{
+                                    color: #eeeeee;
+                                    background-color:#262f35;
+                                }
+                                &:active{
+                                    color:#2c4913;
+                                    background-color: #eeeeee;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
