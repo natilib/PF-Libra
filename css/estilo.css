@@ -121,6 +121,9 @@ body header .barraNav {
   background: radial-gradient(circle, rgb(219, 218, 178) 2%, rgb(200, 200, 149) 79%);
   font-size: 90%;
 }
+body header .barraNav .container-fluid {
+  display: flex;
+}
 body header .barraNav .container-fluid .navbar-brand .logoWok {
   width: 120px;
   padding: 10px;
@@ -357,7 +360,7 @@ body main .container .row div div .formulario .colorBoton:active {
 @media screen and (max-width: 480px) {
   body main .contenedorindex {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.8fr 0.8fr 0.8fr 1.5fr;
+    grid-template-rows: 0.5fr 0.8fr 0.8fr 0.8fr 0.5fr;
     grid-auto-columns: s1fr;
     grid-auto-flow: row;
     grid-template-areas: "titulo" "dato1" "dato2" "dato3" "subtitulo" "opinion";
