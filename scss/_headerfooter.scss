@@ -1,0 +1,65 @@
+body{
+    header{
+        .barraNav{
+            background: radial-gradient(circle, rgba(219,218,178,1) 2%, rgba(200,200,149,1) 79%);
+            font-size: 90%;
+            .container-fluid{
+                .navbar-brand{
+                    .logoWok{
+                        width: 120px;
+                        padding: 10px;
+                    }
+                }
+            }
+            .collapse{
+                .navbar-nav{
+                    .menuPaginas{
+                        &:hover{
+                            background-color: #eeeeee;
+                            border-radius: 8%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background: rgb(219,218,178);
+    background: radial-gradient(circle, rgba(219,218,178,1) 2%, rgba(200,200,149,1) 79%);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    .textoFooter{
+        font-size: 0.8rem;
+        color: #425059;
+        font-family: 'Poppins', sans-serif;
+        margin: 10px;
+        padding: 10px;
+    }
+    .iconosFooter{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        gap: 20px;
+        .iconoInstagram{
+            width: 24px;
+            height: 24px;
+        }
+        .iconoEmail{
+            width: 24px;
+            height: 24px;
+        }
+        .iconoWhats{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+
+
