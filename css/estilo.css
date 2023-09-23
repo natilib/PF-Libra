@@ -52,6 +52,71 @@ body main .iconoWhatsapp {
   font-weight: 600;
 }
 
+body main .contenedorindex {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr 1.5fr;
+  grid-auto-columns: s1fr;
+  gap: 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "titulo titulo titulo" "dato1 dato2 dato3" "subtitulo subtitulo subtitulo" "opinion opinion opinion";
+}
+body main .contenedorindex .titulo {
+  grid-area: titulo;
+}
+body main .contenedorindex .dato1 {
+  grid-area: dato1;
+  background-color: #fdfdfd;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .contenedorindex .dato2 {
+  grid-area: dato2;
+  background-color: #fdfdfd;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .contenedorindex .dato3 {
+  grid-area: dato3;
+  background-color: #fdfdfd;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .contenedorindex .subtitulo {
+  grid-area: subtitulo;
+}
+body main .contenedorindex .opinion {
+  grid-area: opinion;
+  width: auto;
+  height: auto;
+  background-color: #fdfdfd;
+  border-radius: 1rem;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .contenedorindex .opinion .fotoOpinion .fotoComentario {
+  margin: 20px;
+  width: 60%;
+  border-radius: 200px;
+}
+body main .contenedorindex .opinion .parrafoComent {
+  padding: 1rem;
+  line-height: 1.5;
+  color: #425059;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
 body header .barraNav {
   background: radial-gradient(circle, rgb(219, 218, 178) 2%, rgb(200, 200, 149) 79%);
   font-size: 90%;
@@ -118,6 +183,16 @@ body main .container .row .textoHistoriados {
   justify-content: center;
   flex-direction: column;
   text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .contenedorindex {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.8fr 0.8fr 0.8fr 1.5fr;
+    grid-auto-columns: s1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "titulo" "dato1" "dato2" "dato3" "subtitulo" "opinion";
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

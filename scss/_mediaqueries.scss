@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px){
+    .contenedorindex { 
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.8fr 0.8fr 0.8fr 1.5fr;
+        grid-auto-columns: s1fr;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "titulo"
+            "dato1"
+            "dato2"
+            "dato3"
+            "subtitulo"
+            "opinion";
+    }      
+}
