@@ -8,6 +8,10 @@ body{
                 .imgHistoria{
                     margin-top: 3rem;
                     width: 500px;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.1, 1.1)
+                    }
                 }
                 .textoHistoriados{
                     @include textoHistoria (left)

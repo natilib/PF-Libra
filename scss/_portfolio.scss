@@ -16,10 +16,14 @@ body{
                 "txt4 img4 img4 img4";
                 .img1 { 
                     grid-area: img1;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.05, 1.05)
+                    }
                     .pf{
                         width: 80%;
                         border-radius: 1rem;
-                        margin: 20px;
+                        margin: 30px;
                     }
                 }
             
@@ -40,6 +44,10 @@ body{
             
                 .img2 { 
                     grid-area: img2;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.05, 1.05)
+                    }
                     .pf{
                         width: 80%;
                         border-radius: 1rem;
@@ -49,6 +57,10 @@ body{
             
                 .img3 { 
                     grid-area: img3;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.05, 1.05)
+                    }
                     .pf{
                         width: 80%;
                         border-radius: 1rem;
@@ -70,6 +82,10 @@ body{
             
                 .img4 { 
                     grid-area: img4;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.05, 1.05)
+                    }
                     .pf{
                         width: 80%;
                         border-radius: 1rem;

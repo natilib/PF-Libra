@@ -19,8 +19,7 @@ body{
                 }
             
                 .img2servicios { 
-                    grid-area: img2servicios; 
-                    
+                    grid-area: img2servicios;
                 }
             
                 .img3servicios { 
@@ -33,18 +32,34 @@ body{
                 }
                 .servicios1 {
                     grid-area: servicios1;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.1, 1.1)
+                    }
                 }
             
                 .servicios2 { 
-                    grid-area: servicios2; 
+                    grid-area: servicios2;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.1, 1.1)
+                    }
                 }
             
                 .servicios3 { 
-                    grid-area: servicios3; 
+                    grid-area: servicios3;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.1, 1.1)
+                    }
                 }
             
                 .servicios4 { 
-                    grid-area: servicios4; 
+                    grid-area: servicios4;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.1, 1.1)
+                    } 
                 }
             
                 .tituloClientes { 

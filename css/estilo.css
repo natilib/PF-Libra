@@ -73,6 +73,11 @@ body main .contenedorindex .dato1, body main .contenedorindex .dato3, body main 
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px;
+  transition: all 0.5s ease;
+}
+body main .contenedorindex .dato1:hover, body main .contenedorindex .dato3:hover, body main .contenedorindex .dato2:hover {
+  transform: scale(1.1, 1.1);
 }
 body main .contenedorindex .dato2 {
   grid-area: dato2;
@@ -157,6 +162,10 @@ body main .container .row .textoHistoriauno {
 body main .container .row .imgHistoria {
   margin-top: 3rem;
   width: 500px;
+  transition: all 0.5s ease;
+}
+body main .container .row .imgHistoria:hover {
+  transform: scale(1.1, 1.1);
 }
 body main .container .row .textoHistoriados {
   margin-top: 3rem;
@@ -190,15 +199,31 @@ body main .contenedorServicios .img1servicios {
 }
 body main .contenedorServicios .servicios1 {
   grid-area: servicios1;
+  transition: all 0.5s ease;
+}
+body main .contenedorServicios .servicios1:hover {
+  transform: scale(1.1, 1.1);
 }
 body main .contenedorServicios .servicios2 {
   grid-area: servicios2;
+  transition: all 0.5s ease;
+}
+body main .contenedorServicios .servicios2:hover {
+  transform: scale(1.1, 1.1);
 }
 body main .contenedorServicios .servicios3 {
   grid-area: servicios3;
+  transition: all 0.5s ease;
+}
+body main .contenedorServicios .servicios3:hover {
+  transform: scale(1.1, 1.1);
 }
 body main .contenedorServicios .servicios4 {
   grid-area: servicios4;
+  transition: all 0.5s ease;
+}
+body main .contenedorServicios .servicios4:hover {
+  transform: scale(1.1, 1.1);
 }
 body main .contenedorServicios .tituloClientes {
   grid-area: tituloClientes;
@@ -252,11 +277,15 @@ body main .contenedorPortfolio {
 }
 body main .contenedorPortfolio .img1 {
   grid-area: img1;
+  transition: all 0.5s ease;
+}
+body main .contenedorPortfolio .img1:hover {
+  transform: scale(1.05, 1.05);
 }
 body main .contenedorPortfolio .img1 .pf {
   width: 80%;
   border-radius: 1rem;
-  margin: 20px;
+  margin: 30px;
 }
 body main .contenedorPortfolio .txt1, body main .contenedorPortfolio .txt4, body main .contenedorPortfolio .txt3, body main .contenedorPortfolio .txt2 {
   grid-area: txt1;
@@ -272,6 +301,10 @@ body main .contenedorPortfolio .txt2 {
 }
 body main .contenedorPortfolio .img2 {
   grid-area: img2;
+  transition: all 0.5s ease;
+}
+body main .contenedorPortfolio .img2:hover {
+  transform: scale(1.05, 1.05);
 }
 body main .contenedorPortfolio .img2 .pf {
   width: 80%;
@@ -280,6 +313,10 @@ body main .contenedorPortfolio .img2 .pf {
 }
 body main .contenedorPortfolio .img3 {
   grid-area: img3;
+  transition: all 0.5s ease;
+}
+body main .contenedorPortfolio .img3:hover {
+  transform: scale(1.05, 1.05);
 }
 body main .contenedorPortfolio .img3 .pf {
   width: 80%;
@@ -296,6 +333,10 @@ body main .contenedorPortfolio .txt4 {
 }
 body main .contenedorPortfolio .img4 {
   grid-area: img4;
+  transition: all 0.5s ease;
+}
+body main .contenedorPortfolio .img4:hover {
+  transform: scale(1.05, 1.05);
 }
 body main .contenedorPortfolio .img4 .pf {
   width: 80%;
