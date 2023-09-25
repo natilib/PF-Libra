@@ -59,7 +59,7 @@ body main .contenedorindex {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 1fr 0.5fr 1.5fr;
   grid-auto-columns: s1fr;
-  gap: 10px;
+  gap: 5px;
   grid-auto-flow: row;
   grid-template-areas: "titulo titulo titulo" "dato1 dato2 dato3" "subtitulo subtitulo subtitulo" "opinion opinion opinion";
 }
@@ -138,7 +138,7 @@ footer .textoFooter {
   font-size: 0.8rem;
   color: #425059;
   font-family: "Poppins", sans-serif;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 footer .iconosFooter {
