@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
     <title>Wok Comunicación y Diseño</title>
@@ -71,7 +72,7 @@
             </button>
         </div>
         <div class="contenedorindex">
-            <div class="titulo letraH1 text-center p-5">
+            <div class="titulo letraH1 text-center p-5" data-aos="zoom-in">
                 Donde se crean y mezclan ideas para potenciar tu marca
             </div>
             <div class="dato1">
@@ -99,10 +100,10 @@
                     realizadas
                 </div>
             </div>
-            <div class="subtitulo letraH2 text-center p-5">
+            <div class="subtitulo letraH2 text-center p-5" data-aos="zoom-in">
                 Nuestros Clientes andan diciendo...
             </div>
-            <div class="opinion">
+            <div class="opinion" data-aos="zoom-in">
                 <div class="fotoOpinion">
                     <img class="fotoComentario" src="./images/imgrcela.png" alt="Imagen Marcela">
                 </div>
@@ -145,5 +146,11 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 2000});
+    </script>
 </body>
 </html>

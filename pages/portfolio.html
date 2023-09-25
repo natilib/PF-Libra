@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
     <title>Wok Comunicación y Diseño</title>
@@ -47,12 +48,12 @@
                 <img src="../images/iconowhatsapp.png" alt="Icono WhatsApp">
             </a>
         </div>
-        <div class="tituloPagina p-5">   
+        <div class="tituloPagina p-5" data-aos="zoom-in">   
             <div class="letraH1 text-center">Algunos de nuestros desafíos</div>
             <div class="LetraH3 text-center">¡Este es nuestro Portfolio!</div>
         </div>
         <div class="contenedorPortfolio">
-            <div class="img1">
+            <div class="img1" data-aos="fade-right">
                 <img class=pf src="../images/portfolio-09.jpg" alt="Dulces Hermanas">
             </div>
             <div class="txt1">
@@ -71,10 +72,10 @@
                     Diseño de logotipo y manual de marca para Redes Sociales
                 </div>
             </div>
-            <div class="img2">
+            <div class="img2" data-aos="fade-left">
                     <img class=pf src="../images/portfolio-10.jpg" alt="Nonita Julia">
             </div>
-            <div class="img3">
+            <div class="img3" data-aos="fade-right">
                 <img class=pf src="../images/portfolio-11.jpg" alt="El Tic Tac">
             </div>
             <div class="txt3">
@@ -93,7 +94,7 @@
                     Fotoproducto y diseño de catálogo para clientes mayoristas
                 </div>
             </div>
-            <div class="img4">
+            <div class="img4" data-aos="fade-left">
                 <img class=pf src="../images/portfolio-12.jpg" alt="Grun">
             </div>
         </div>
@@ -125,5 +126,11 @@
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 2000});
+    </script>
 </body>
 </html>
