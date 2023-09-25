@@ -3,22 +3,14 @@ body{
         .container{
             .row{
                 .textoHistoriauno{
-                    margin-top: 3rem;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    text-align: left;
+                    @include textoHistoria (right)
                 }
                 .imgHistoria{
                     margin-top: 3rem;
                     width: 500px;
                 }
                 .textoHistoriados{
-                    margin-top: 3rem;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    text-align: right;
+                    @include textoHistoria (left)
                 }
             }
         }

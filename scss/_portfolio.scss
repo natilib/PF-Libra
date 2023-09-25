@@ -25,20 +25,17 @@ body{
             
                 .txt1 { 
                     grid-area: txt1;
+                    text-align: right;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
-                    text-align: right;
                     padding: 20px;
                 }
             
                 .txt2 { 
                     grid-area: txt2;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
                     text-align: left;
-                    padding: 20px;
+                    @extend .txt1
                 }
             
                 .img2 { 
@@ -61,20 +58,14 @@ body{
             
                 .txt3 { 
                     grid-area: txt3;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
                     text-align: right;
-                    padding: 20px;
+                    @extend .txt1
                 }
             
                 .txt4 { 
                     grid-area: txt4;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
                     text-align: left;
-                    padding: 20px;
+                    @extend .txt1
                 }
             
                 .img4 { 

@@ -19,7 +19,7 @@ body{
                 }
                 .dato1 { 
                     grid-area: dato1;
-                    background-color: #fdfdfd;
+                    background-color: $backgroundColorCaja;
                     border-radius: 1rem;
                     display: flex;
                     justify-content:center;
@@ -27,19 +27,11 @@ body{
                 }
                 .dato2 { 
                     grid-area: dato2;
-                    background-color: #fdfdfd;
-                    border-radius: 1rem;
-                    display: flex;
-                    justify-content:center;
-                    align-items: center;
+                    @extend .dato1
                 }
                 .dato3 { 
                     grid-area: dato3;
-                    background-color: #fdfdfd;
-                    border-radius: 1rem;
-                    display: flex;
-                    justify-content:center;
-                    align-items: center;
+                    @extend .dato1
                 }
                 .subtitulo { 
                     grid-area: subtitulo;
@@ -48,7 +40,7 @@ body{
                     grid-area: opinion;
                     width: auto;
                     height: auto;
-                    background-color: #fdfdfd;
+                    background-color: $backgroundColorCaja;
                     border-radius: 1rem;
                     margin: 30px;
                     display: flex;

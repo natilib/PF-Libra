@@ -4,7 +4,6 @@ body{
             background: radial-gradient(circle, rgba(219,218,178,1) 2%, rgba(200,200,149,1) 79%);
             font-size: 90%;
             .container-fluid{
-                display: flex;
                 .navbar-brand{
                     .logoWok{
                         width: 120px;
@@ -52,12 +51,10 @@ footer{
             height: 24px;
         }
         .iconoEmail{
-            width: 24px;
-            height: 24px;
+            @extend .iconoInstagram
         }
         .iconoWhats{
-            width: 24px;
-            height: 24px;
+            @extend .iconoInstagram
         }
     }
 }

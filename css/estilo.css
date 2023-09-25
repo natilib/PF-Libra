@@ -66,7 +66,7 @@ body main .contenedorindex {
 body main .contenedorindex .titulo {
   grid-area: titulo;
 }
-body main .contenedorindex .dato1 {
+body main .contenedorindex .dato1, body main .contenedorindex .dato3, body main .contenedorindex .dato2 {
   grid-area: dato1;
   background-color: #fdfdfd;
   border-radius: 1rem;
@@ -76,19 +76,9 @@ body main .contenedorindex .dato1 {
 }
 body main .contenedorindex .dato2 {
   grid-area: dato2;
-  background-color: #fdfdfd;
-  border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 body main .contenedorindex .dato3 {
   grid-area: dato3;
-  background-color: #fdfdfd;
-  border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 body main .contenedorindex .subtitulo {
   grid-area: subtitulo;
@@ -120,9 +110,6 @@ body main .contenedorindex .opinion .parrafoComent {
 body header .barraNav {
   background: radial-gradient(circle, rgb(219, 218, 178) 2%, rgb(200, 200, 149) 79%);
   font-size: 90%;
-}
-body header .barraNav .container-fluid {
-  display: flex;
 }
 body header .barraNav .container-fluid .navbar-brand .logoWok {
   width: 120px;
@@ -156,25 +143,16 @@ footer .iconosFooter {
   padding: 10px;
   gap: 20px;
 }
-footer .iconosFooter .iconoInstagram {
+footer .iconosFooter .iconoInstagram, footer .iconosFooter .iconoWhats, footer .iconosFooter .iconoEmail {
   width: 24px;
   height: 24px;
 }
-footer .iconosFooter .iconoEmail {
-  width: 24px;
-  height: 24px;
-}
-footer .iconosFooter .iconoWhats {
-  width: 24px;
-  height: 24px;
-}
-
 body main .container .row .textoHistoriauno {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: left;
+  text-align: right;
 }
 body main .container .row .imgHistoria {
   margin-top: 3rem;
@@ -185,7 +163,7 @@ body main .container .row .textoHistoriados {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
 }
 
 body main .contenedorServicios {
@@ -280,21 +258,17 @@ body main .contenedorPortfolio .img1 .pf {
   border-radius: 1rem;
   margin: 20px;
 }
-body main .contenedorPortfolio .txt1 {
+body main .contenedorPortfolio .txt1, body main .contenedorPortfolio .txt4, body main .contenedorPortfolio .txt3, body main .contenedorPortfolio .txt2 {
   grid-area: txt1;
+  text-align: right;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: right;
   padding: 20px;
 }
 body main .contenedorPortfolio .txt2 {
   grid-area: txt2;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: left;
-  padding: 20px;
 }
 body main .contenedorPortfolio .img2 {
   grid-area: img2;
@@ -314,19 +288,11 @@ body main .contenedorPortfolio .img3 .pf {
 }
 body main .contenedorPortfolio .txt3 {
   grid-area: txt3;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: right;
-  padding: 20px;
 }
 body main .contenedorPortfolio .txt4 {
   grid-area: txt4;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: left;
-  padding: 20px;
 }
 body main .contenedorPortfolio .img4 {
   grid-area: img4;
