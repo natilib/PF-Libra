@@ -1,7 +1,7 @@
 body{
     main{
         .contenedorindex{
-            width: 100vw;
+            width: auto;
             height: auto;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -20,6 +20,7 @@ body{
                 .dato1 { 
                     grid-area: dato1;
                     background-color: $backgroundColorCaja;
+                    width: 80%;
                     border-radius: 1rem;
                     display: flex;
                     justify-content:center;

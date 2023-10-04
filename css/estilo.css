@@ -53,7 +53,7 @@ body main .iconoWhatsapp {
 }
 
 body main .contenedorindex {
-  width: 100vw;
+  width: auto;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -69,6 +69,7 @@ body main .contenedorindex .titulo {
 body main .contenedorindex .dato1, body main .contenedorindex .dato3, body main .contenedorindex .dato2 {
   grid-area: dato1;
   background-color: #fdfdfd;
+  width: 80%;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -161,7 +162,7 @@ body main .container .row .textoHistoriauno {
 }
 body main .container .row .imgHistoria {
   margin-top: 3rem;
-  width: 500px;
+  width: 100%;
   transition: all 0.5s ease;
 }
 body main .container .row .imgHistoria:hover {
