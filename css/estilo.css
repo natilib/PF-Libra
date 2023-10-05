@@ -7,6 +7,7 @@
 body {
   background-color: #eeeeee;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 body main .iconoWhatsapp {
   position: fixed;
